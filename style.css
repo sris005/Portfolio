@@ -227,42 +227,25 @@ ul {
 
 /* PROFILE PIC FIX + PINK CIRCLE */
 /* PERFECT ROUND PROFILE IMAGE WITH PINK BORDER */
+/* PERFECT ROUND PROFILE IMAGE WITH FULL FIT */
 .profile-wrapper {
-  width: 260px;       /* Circle size */
-  height: 260px;
-  border: 5px solid #ff4f9a;   /* Pink border */
-  border-radius: 50%; 
-  position: relative;
-  overflow: hidden;   /* Important: Image circle ke andar lock ho jayegi */
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  border: 5px solid #ff4f9a;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #000;
 }
 
-/* Image inside circle */
 .my-photo {
   width: 100%;
   height: 100%;
-  object-fit: cover;   /* Image circle ko perfectly fill karegi */
-  border-radius: 50%;
-}
-
-
-/* Image styling */
-.my-photo {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
   object-fit: cover;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  border-radius: 50%;
 }
-
-
-
 
 .profile-img {
   width: 100%;
@@ -469,6 +452,7 @@ ul {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
