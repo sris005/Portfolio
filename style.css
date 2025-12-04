@@ -226,12 +226,17 @@ ul {
 }
 
 /* Profile image size fix */
-.profile-wrapper img {
-  width: 300px;
-  height: auto;
-  border-radius: 15px;
+.my-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
   object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 
 
 .profile-img {
@@ -439,4 +444,5 @@ ul {
     grid-template-columns: 1fr;
   }
 }
+
 
