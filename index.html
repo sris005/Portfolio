@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shrasti Tiwari | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- JS -->
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">Shrasti<span>.</span></div>
+
+    <nav class="nav" id="navMenu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
+
+  <!-- HERO / HOME -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <p class="tag">bca completed • Aspiring Full Stack Developer</p>
+      <h1>Hi, I'm <span>Shrasti Tiwari</span></h1>
+
+      <p class="hero-text">
+        I have completed my BCA and I'm currently pursuing MCA.  
+        I enjoy building clean and responsive web applications using
+        HTML, CSS and JavaScript. I'm always learning new technologies to
+        become a strong full stack developer.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#contact" class="btn primary-btn">Hire Me</a>
+        <a href="#projects" class="btn outline-btn">View Projects</a>
+      </div>
+
+      <div class="social-icons">
+
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/srish__005?igsh=eTd5c3M5aWRtOTJm" 
+     target="_blank" 
+     aria-label="Instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/shrasti-tiwari-34b291241"
+     target="_blank"
+     aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/sris005"
+     target="_blank"
+     aria-label="GitHub">
+    <i class="fa-brands fa-github"></i>
+  </a>
+
+</div>
+
+    </div>
+
+    <div class="hero-right">
+      <div class="profile-wrapper">
+        <img src="image/mypic.jpg" alt="Shrasti Tiwari" class="profile-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-text">
+      I'm Shrasti Tiwari, an MCA student and aspiring full stack developer.
+      I love solving problems and turning ideas into real websites.
+      Right now I'm focusing on strong basics in HTML, CSS and JavaScript,
+      and slowly moving towards backend development.
+    </p>
+    <p class="section-text">
+      My goal is to work as a software developer where I can keep learning,
+      contribute to real-world projects and grow with a good team.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS3 (Flexbox, Grid, Responsive)</li>
+          <li>JavaScript (Basics)</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Tools</h3>
+        <ul>
+          <li>VS Code</li>
+          <li>Git & GitHub (Basics)</li>
+          <li>Chrome DevTools</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Learning Next</h3>
+        <ul>
+          <li>JavaScript Advanced</li>
+          <li>Backend (Node.js / Python)</li>
+          <li>Database (MySQL / MongoDB)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Personal Portfolio</h3>
+        <p>
+          A responsive personal portfolio website built using HTML, CSS
+          and JavaScript to showcase my skills and projects.
+        </p>
+        <p class="project-tech">Tech: HTML, CSS, JS</p>
+        <a href="#" class="btn small-btn">View Code</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>
+          Simple product landing page with clean layout and responsive design.
+        </p>
+        <p class="project-tech">Tech: HTML, CSS</p>
+        <a href="#" class="btn small-btn">View Code</a>
+      </div>
+
+      <div class="project-card">
+        <h3>To-Do List (Plan)</h3>
+        <p>
+          A basic to-do list app idea to practice JavaScript logic and DOM.
+        </p>
+        <p class="project-tech">Tech: HTML, CSS, JS</p>
+        <a href="#" class="btn small-btn disabled">Coming Soon</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p class="section-text">
+      Want to discuss an opportunity or project?  
+      Fill the form below or mail me directly.
+    </p>
+
+    <div class="contact-wrapper">
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Write your message..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn primary-btn">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Contact Details</h3>
+        <p><i class="fa-solid fa-envelope"></i>shrastitiwari13@gmail.com</p>
+        <p><i class="fa-solid fa-location-dot"></i> indore, India</p>
+        <p>
+    <i class="fa-solid fa-phone"></i>
+    <a href="tel:+91XXXXXXXXXX">+91 7869910518,8989114791</a>
+  </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Shrasti Tiwari. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
