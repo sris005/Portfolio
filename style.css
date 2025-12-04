@@ -225,17 +225,14 @@ ul {
   justify-content: center;
 }
 
-.profile-wrapper {
-  width: 260px;
-  height: 260px;
-  border-radius: 50%;
-  border: 3px solid #ff4f9a;
-  padding: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: radial-gradient(circle at top, #ff4f9a22, #050509);
+/* Profile image size fix */
+.profile-wrapper img {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
 }
+
 
 .profile-img {
   width: 100%;
@@ -442,3 +439,4 @@ ul {
     grid-template-columns: 1fr;
   }
 }
+
